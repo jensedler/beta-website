@@ -152,6 +152,7 @@ content:
     type: collection
     extension: md
     create: true
+    filename: "{{title | slugify}}"
     fields:
       - name: title
         label: Title
