@@ -111,7 +111,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
     <div class="container">
         <h2 class="section-title fade-in">Unser Team</h2>
         <div class="team-grid">
-            {% for member in site.data.team %}
+            {% for member in site.data.team.members %}
             <div class="team-card" data-delay="{{ member.animation_delay }}">
                 {% if member.image %}
                     <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="team-image">
@@ -152,7 +152,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
     <div class="container">
         <h2 class="section-title fade-in">Unsere Projekte</h2>
         <div class="projects-grid">
-            {% for project in site.data.projects %}
+            {% for project in site.data.projects.items %}
             <div class="project-card fade-in{% if project.link %} has-link{% endif %}">
                 <div class="project-tag">{{ project.tag }}</div>
                 <h4>{{ project.title }}</h4>
@@ -211,9 +211,9 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
         </div>
         
         {% assign today = 'now' | date: '%Y-%m-%d' %}
-        {% assign upcoming_events = site.data.events | sort: 'date' %}
+        {% assign upcoming_events = site.data.events.items | sort: 'date' %}
         
-        {% if site.data.events.size > 0 %}
+        {% if site.data.events.items.size > 0 %}
         <div class="events-grid">
             {% for event in upcoming_events limit: 6 %}
                 {% assign event_date = event.date | date: '%Y-%m-%d' %}

@@ -73,7 +73,7 @@ layout: default
             
             <!-- Author Section -->
             {% if page.author %}
-                {% assign author = site.data.team | where: "name", page.author | first %}
+                {% assign author = site.data.team.members | where: "name", page.author | first %}
                 {% if author %}
                 <section class="post-author">
                     <div class="author-card">

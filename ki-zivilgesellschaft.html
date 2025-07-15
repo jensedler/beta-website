@@ -92,9 +92,9 @@ Offene Innovationen, Austausch und Co-Creation über Organisationsgrenzen hinaus
         </div>
         
         {% assign today = 'now' | date: '%Y-%m-%d' %}
-        {% assign upcoming_events = site.data.events | sort: 'date' %}
+        {% assign upcoming_events = site.data.events.items | sort: 'date' %}
         
-        {% if site.data.events.size > 0 %}
+        {% if site.data.events.items.size > 0 %}
         <div class="events-grid">
             {% for event in upcoming_events limit: 12 %}
                 {% assign event_date = event.date | date: '%Y-%m-%d' %}
