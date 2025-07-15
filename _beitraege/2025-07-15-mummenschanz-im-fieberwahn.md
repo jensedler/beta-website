@@ -13,11 +13,13 @@ Es begann mit einem harmlosen Kratzen im Hals. 48 Stunden später fand ich mich 
 
 In meinem fiebrigen Zustand war mein Teppich ein Schachbrett aus glühender Lava, das Sofa ein trügerischer Troll, der gelegentlich meine Teetasse verschlang, und mein Kater eine Art seelenloser Orakelpriester mit leichtem Fischgeruch.
 
-Die Realität verschwamm irgendwo zwischen Ibuprofen und Ingwertee. Ich führte bedeutungsschwangere Monologe mit meiner Zimmerpflanze („Sprecht, o Basilikum, was rät das Grün?“) und schickte Sprachmemos an meine Freunde, in denen ich sie eindringlich warnte, niemals ein Bündnis mit dem „Orden der Frottee-Zunft“ einzugehen.
-
 ![](assets/images/ki.png)
 
+Die Realität verschwamm irgendwo zwischen Ibuprofen und Ingwertee. Ich führte bedeutungsschwangere Monologe mit meiner Zimmerpflanze („Sprecht, o Basilikum, was rät das Grün?“) und schickte Sprachmemos an meine Freunde, in denen ich sie eindringlich warnte, niemals ein Bündnis mit dem „Orden der Frottee-Zunft“ einzugehen.
+
 Höhepunkt des Wahns: Ich hielt eine flammende Rede an meine imaginäre Armee aus Nacktschnecken, die sich in einer Koalition mit den Teebeuteln gegen den „Schleimfürsten“ erhoben hatten – gespielt von meiner alten Wärmedecke.
+
+![](assets/images/graffiti.png)
 
 Und doch, wie durch ein Wunder – oder dank Paracetamol – lichtete sich irgendwann der Nebel. Ich erwachte, völlig verschwitzt, leicht verwirrt und mit einer Plastikbanane im Bett, die ich offenbar zur Verteidigung unter das Kopfkissen gelegt hatte. Der Mummenschanz war vorbei.
 
