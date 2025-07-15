@@ -19,7 +19,7 @@ Die Realität verschwamm irgendwo zwischen Ibuprofen und Ingwertee. Ich führte 
 
 Höhepunkt des Wahns: Ich hielt eine flammende Rede an meine imaginäre Armee aus Nacktschnecken, die sich in einer Koalition mit den Teebeuteln gegen den „Schleimfürsten“ erhoben hatten – gespielt von meiner alten Wärmedecke.
 
-![](beta-website/assets/images/graffiti.png)
+![KI mit Syntax]({{ '/assets/images/ki.png' | relative_url }})
 
 Und doch, wie durch ein Wunder – oder dank Paracetamol – lichtete sich irgendwann der Nebel. Ich erwachte, völlig verschwitzt, leicht verwirrt und mit einer Plastikbanane im Bett, die ich offenbar zur Verteidigung unter das Kopfkissen gelegt hatte. Der Mummenschanz war vorbei.
 
