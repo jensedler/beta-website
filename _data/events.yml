@@ -15,3 +15,14 @@ items:
     cost: Kostenlos
     booking_url: https://pretix.eu/OIC-BIE/ki-zivil-3/
     featured: true
+  - title: Schweinezucht auf der ISS
+    description: Schweine im Weltall.... mehr als nur ein Zitat.
+    date: 2025-08-21
+    time: 15:30 Uhr
+    duration: 5 Stunden
+    location: ISS, Low Earth Orbit
+    category: Vortrag
+    icon: assets/images/icons/presentation.svg
+    target_audience: Kosmonauten
+    cost: Costa nix
+    featured: false
