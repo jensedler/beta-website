@@ -12,11 +12,11 @@ media:
 content:
   # Team Management
   - name: team
-    label: Team
+    label: Team Members
     path: _data/team.yml
     type: file
     fields:
-      - name: members
+      - name: root
         label: Team Members
         type: list
         items:
@@ -56,7 +56,7 @@ content:
     path: _data/projects.yml
     type: file
     fields:
-      - name: projects
+      - name: root
         label: Projects
         type: list
         items:
@@ -111,7 +111,7 @@ content:
     path: _data/events.yml
     type: file
     fields:
-      - name: events
+      - name: root
         label: Events
         type: list
         items:
