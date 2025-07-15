@@ -62,30 +62,16 @@ content:
             type: string
             required: true
           - name: tag
-            label: Tag
-            type: select
-            values:
-              - Smart City
-              - Open Innovation
-              - Künstliche Intelligenz
-              - Innovation Lab
-              - E-Government
-              - Data Analytics
+            label: Tag (Smart City, Open Innovation, Künstliche Intelligenz, Innovation Lab, E-Government, Data Analytics)
+            type: string
             required: true
           - name: description
             label: Description
             type: text
             required: true
           - name: status
-            label: Status
-            type: select
-            values:
-              - Im Live-Betrieb
-              - Umgesetzt
-              - Gestartet
-              - Umsetzung
-              - Planung
-              - Beta
+            label: Status (Im Live-Betrieb, Umgesetzt, Gestartet, Umsetzung, Planung, Beta)
+            type: string
             required: true
           - name: start_date
             label: Start Date
@@ -137,14 +123,8 @@ content:
             type: string
             required: true
           - name: category
-            label: Category
-            type: select
-            values:
-              - Workshop
-              - Meetup
-              - Vortrag
-              - Konferenz
-              - Networking
+            label: Category (Workshop, Meetup, Vortrag, Konferenz, Networking)
+            type: string
             required: true
           - name: icon
             label: Icon
@@ -182,25 +162,12 @@ content:
         type: textarea
         required: true
       - name: author
-        label: Author
-        type: select
-        values:
-          - Jens Edler
-          - Tajana Džepina
-          - Maria Gonçalves
-          - Lisa Meyer
-          - Sarah Bollmann
-          - Stephan Berkowitz
+        label: Author (Jens Edler, Tajana Džepina, Maria Gonçalves, Lisa Meyer, Sarah Bollmann, Stephan Berkowitz)
+        type: string
         required: true
       - name: category
-        label: Category
-        type: select
-        values:
-          - Tools
-          - Projekte
-          - News
-          - Workshop
-          - Event
+        label: Category (Tools, Projekte, News, Workshop, Event)
+        type: string
         required: true
       - name: date
         label: Date
