@@ -14,6 +14,13 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
+# Kramdown settings for better image handling
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  auto_ids: true
+  hard_wrap: false
+
 # Jekyll plugins
 plugins:
   - jekyll-sitemap
