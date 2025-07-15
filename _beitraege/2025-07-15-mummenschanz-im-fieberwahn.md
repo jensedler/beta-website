@@ -13,7 +13,7 @@ Es begann mit einem harmlosen Kratzen im Hals. 48 Stunden später fand ich mich 
 
 In meinem fiebrigen Zustand war mein Teppich ein Schachbrett aus glühender Lava, das Sofa ein trügerischer Troll, der gelegentlich meine Teetasse verschlang, und mein Kater eine Art seelenloser Orakelpriester mit leichtem Fischgeruch.
 
-![](beta-website/assets/images/ki.png)
+![KI...](beta-website/assets/images/ki.png)
 
 Die Realität verschwamm irgendwo zwischen Ibuprofen und Ingwertee. Ich führte bedeutungsschwangere Monologe mit meiner Zimmerpflanze („Sprecht, o Basilikum, was rät das Grün?“) und schickte Sprachmemos an meine Freunde, in denen ich sie eindringlich warnte, niemals ein Bündnis mit dem „Orden der Frottee-Zunft“ einzugehen.
 
