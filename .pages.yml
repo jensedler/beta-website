@@ -64,19 +64,13 @@ content:
           - name: tag
             label: Tag
             type: select
-            options:
-              - value: Smart City
-                label: Smart City
-              - value: Open Innovation
-                label: Open Innovation
-              - value: Künstliche Intelligenz
-                label: Künstliche Intelligenz
-              - value: Innovation Lab
-                label: Innovation Lab
-              - value: E-Government
-                label: E-Government
-              - value: Data Analytics
-                label: Data Analytics
+            values:
+              - Smart City
+              - Open Innovation
+              - Künstliche Intelligenz
+              - Innovation Lab
+              - E-Government
+              - Data Analytics
             required: true
           - name: description
             label: Description
@@ -85,19 +79,13 @@ content:
           - name: status
             label: Status
             type: select
-            options:
-              - value: Im Live-Betrieb
-                label: Im Live-Betrieb
-              - value: Umgesetzt
-                label: Umgesetzt
-              - value: Gestartet
-                label: Gestartet
-              - value: Umsetzung
-                label: Umsetzung
-              - value: Planung
-                label: Planung
-              - value: Beta
-                label: Beta
+            values:
+              - Im Live-Betrieb
+              - Umgesetzt
+              - Gestartet
+              - Umsetzung
+              - Planung
+              - Beta
             required: true
           - name: start_date
             label: Start Date
@@ -151,17 +139,12 @@ content:
           - name: category
             label: Category
             type: select
-            options:
-              - value: Workshop
-                label: Workshop
-              - value: Meetup
-                label: Meetup
-              - value: Vortrag
-                label: Vortrag
-              - value: Konferenz
-                label: Konferenz
-              - value: Networking
-                label: Networking
+            values:
+              - Workshop
+              - Meetup
+              - Vortrag
+              - Konferenz
+              - Networking
             required: true
           - name: icon
             label: Icon
@@ -201,34 +184,23 @@ content:
       - name: author
         label: Author
         type: select
-        options:
-          - value: Jens Edler
-            label: Jens Edler
-          - value: Tajana Džepina
-            label: Tajana Džepina
-          - value: Maria Gonçalves
-            label: Maria Gonçalves
-          - value: Lisa Meyer
-            label: Lisa Meyer
-          - value: Sarah Bollmann
-            label: Sarah Bollmann
-          - value: Stephan Berkowitz
-            label: Stephan Berkowitz
+        values:
+          - Jens Edler
+          - Tajana Džepina
+          - Maria Gonçalves
+          - Lisa Meyer
+          - Sarah Bollmann
+          - Stephan Berkowitz
         required: true
       - name: category
         label: Category
         type: select
-        options:
-          - value: Tools
-            label: Tools
-          - value: Projekte
-            label: Projekte
-          - value: News
-            label: News
-          - value: Workshop
-            label: Workshop
-          - value: Event
-            label: Event
+        values:
+          - Tools
+          - Projekte
+          - News
+          - Workshop
+          - Event
         required: true
       - name: date
         label: Date
