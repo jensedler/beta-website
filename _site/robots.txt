@@ -1,1 +1,0 @@
-Sitemap: https://jensedler.github.io/beta-website/sitemap.xml
