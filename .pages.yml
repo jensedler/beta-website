@@ -1,0 +1,274 @@
+media:
+  input: assets/images
+  output: assets/images
+  extensions:
+    - jpg
+    - jpeg
+    - png
+    - gif
+    - svg
+    - pdf
+
+content:
+  # Team Management
+  - name: team
+    label: Team
+    path: _data/team.yml
+    type: file
+    fields:
+      - name: members
+        label: Team Members
+        type: list
+        items:
+          - name: name
+            label: Name
+            type: text
+            required: true
+          - name: role
+            label: Role
+            type: text
+            required: true
+          - name: image
+            label: Profile Image
+            type: image
+            media: assets/images/team
+            required: true
+          - name: expertise
+            label: Expertise
+            type: list
+            items:
+              type: text
+          - name: email
+            label: Email
+            type: email
+            required: true
+          - name: animation_delay
+            label: Animation Delay
+            type: number
+            step: 0.1
+            min: 0
+            max: 2
+            default: 0.1
+
+  # Projects Management
+  - name: projects
+    label: Projects
+    path: _data/projects.yml
+    type: file
+    fields:
+      - name: projects
+        label: Projects
+        type: list
+        items:
+          - name: title
+            label: Title
+            type: text
+            required: true
+          - name: tag
+            label: Tag
+            type: select
+            options:
+              - Smart City
+              - Open Innovation
+              - Künstliche Intelligenz
+              - Innovation Lab
+              - E-Government
+              - Data Analytics
+            required: true
+          - name: description
+            label: Description
+            type: textarea
+            required: true
+          - name: status
+            label: Status
+            type: select
+            options:
+              - Im Live-Betrieb
+              - Umgesetzt
+              - Gestartet
+              - Umsetzung
+              - Planung
+              - Beta
+            required: true
+          - name: start_date
+            label: Start Date
+            type: date
+            required: true
+          - name: responsible
+            label: Responsible Person
+            type: text
+            required: true
+          - name: link
+            label: Link
+            type: text
+          - name: link_text
+            label: Link Text
+            type: text
+
+  # Events Management
+  - name: events
+    label: Events
+    path: _data/events.yml
+    type: file
+    fields:
+      - name: events
+        label: Events
+        type: list
+        items:
+          - name: title
+            label: Title
+            type: text
+            required: true
+          - name: description
+            label: Description
+            type: textarea
+            required: true
+          - name: date
+            label: Date
+            type: date
+            required: true
+          - name: time
+            label: Time
+            type: text
+            required: true
+          - name: duration
+            label: Duration
+            type: text
+          - name: location
+            label: Location
+            type: text
+            required: true
+          - name: category
+            label: Category
+            type: select
+            options:
+              - Workshop
+              - Meetup
+              - Vortrag
+              - Konferenz
+              - Networking
+            required: true
+          - name: icon
+            label: Icon
+            type: image
+            media: assets/images/icons
+          - name: target_audience
+            label: Target Audience
+            type: text
+            required: true
+          - name: cost
+            label: Cost
+            type: text
+            default: Kostenlos
+          - name: booking_url
+            label: Booking URL
+            type: text
+          - name: featured
+            label: Featured
+            type: boolean
+            default: false
+
+  # Blog Posts
+  - name: blog
+    label: Blog Posts
+    path: _beitraege
+    type: collection
+    extension: md
+    create: true
+    fields:
+      - name: title
+        label: Title
+        type: text
+        required: true
+      - name: teaser
+        label: Teaser
+        type: textarea
+        required: true
+      - name: author
+        label: Author
+        type: select
+        options:
+          - Jens Edler
+          - Tajana Džepina
+          - Maria Gonçalves
+          - Lisa Meyer
+          - Sarah Bollmann
+          - Stephan Berkowitz
+        required: true
+      - name: category
+        label: Category
+        type: select
+        options:
+          - Tools
+          - Projekte
+          - News
+          - Workshop
+          - Event
+        required: true
+      - name: date
+        label: Date
+        type: date
+        required: true
+      - name: header_image
+        label: Header Image
+        type: image
+        media: assets/images
+      - name: body
+        label: Content
+        type: rich-text
+        required: true
+
+  # Site Configuration
+  - name: config
+    label: Site Configuration
+    path: _config.yml
+    type: file
+    fields:
+      - name: title
+        label: Site Title
+        type: text
+        required: true
+      - name: description
+        label: Site Description
+        type: textarea
+        required: true
+      - name: email
+        label: Contact Email
+        type: email
+        required: true
+      - name: phone
+        label: Contact Phone
+        type: text
+        required: true
+      - name: address
+        label: Address
+        type: object
+        fields:
+          - name: street
+            label: Street
+            type: text
+            required: true
+          - name: city
+            label: City
+            type: text
+            required: true
+      - name: opening_hours
+        label: Opening Hours
+        type: text
+        required: true
+      - name: social
+        label: Social Media
+        type: object
+        fields:
+          - name: twitter
+            label: Twitter
+            type: text
+          - name: linkedin
+            label: LinkedIn
+            type: text
+          - name: github
+            label: GitHub
+            type: text
+      - name: google_analytics
+        label: Google Analytics ID
+        type: text
