@@ -8,11 +8,11 @@ Diese Anleitung zeigt, wie Sie die OIC Bielefeld Website für Ihre Stadt anpasse
 
 ```bash
 # Repository forken auf GitHub, dann:
-git clone https://github.com/IHR-USERNAME/oic-bielefeld-website.git
-cd oic-bielefeld-website
+git clone https://github.com/IHR-USERNAME/beta-website.git
+cd beta-website
 
 # Umbenennen für Ihre Stadt
-mv oic-bielefeld-website oic-IHRE-STADT-website
+mv beta-website oic-IHRE-STADT-website
 cd oic-IHRE-STADT-website
 ```
 
@@ -318,7 +318,7 @@ Um Updates vom Original-Repository zu erhalten:
 
 ```bash
 # Original Repository als Upstream hinzufügen
-git remote add upstream https://github.com/jensedler/oic-bielefeld-website.git
+git remote add upstream https://github.com/jensedler/beta-website.git
 
 # Updates vom Original holen
 git fetch upstream

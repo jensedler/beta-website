@@ -41,8 +41,8 @@ Eine moderne, responsive Website für die Open Innovation City Initiative in Bie
 
 1. **Repository klonen:**
    ```bash
-   git clone https://github.com/dein-username/oic-bielefeld.git
-   cd oic-bielefeld
+   git clone https://github.com/jensedler/beta-website.git
+   cd beta-website
    ```
 
 2. **Dependencies installieren:**
@@ -172,7 +172,7 @@ Die Farbpalette ist in `assets/css/main.css` definiert:
 
 Bei Fragen oder Problemen:
 - **E-Mail:** info@oic-bielefeld.de
-- **Issues:** [GitHub Issues](https://github.com/dein-username/oic-bielefeld/issues)
+- **Issues:** [GitHub Issues](https://github.com/jensedler/beta-website/issues)
 
 ## 📄 Lizenz
 

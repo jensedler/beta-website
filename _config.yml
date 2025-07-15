@@ -1,8 +1,8 @@
 # Site Settings
 title: "Open Innovation City Bielefeld"
 description: "Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Innovation und kreative Zusammenarbeit."
-baseurl: ""
-url: "http://oic-bielefeld.de"
+baseurl: "/beta-website"
+url: "https://jensedler.github.io"
 
 # SEO
 author: "OIC Bielefeld Team"
@@ -62,17 +62,17 @@ colors:
 # Navigation
 navigation:
   - name: "Start"
-    link: "#hero"
+    link: "/#hero"
   - name: "Über uns"
-    link: "#about"
+    link: "/#about"
   - name: "Team"
-    link: "#team"
+    link: "/#team"
   - name: "Projekte"
-    link: "#projects"
+    link: "/#projects"
   - name: "Events"
-    link: "#events"
+    link: "/#events"
   - name: "Kontakt"
-    link: "#contact"
+    link: "/#contact"
 
 # Collections
 collections:

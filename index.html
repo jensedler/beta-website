@@ -35,7 +35,7 @@ description: Gemeinsam gestalten wir die Zukunft unserer Stadt durch offene Inno
         
         <ul class="nav-links" id="navLinks">
             {% for item in site.navigation %}
-            <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
             {% endfor %}
         </ul>
         
