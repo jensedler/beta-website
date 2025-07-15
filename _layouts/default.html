@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'de' }}">
+{% include head.html %}
+
+<body>
+    <!-- Main Content -->
+    <main id="main" role="main">
+        {{ content }}
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>{{ site.title }}</h4>
+                    <p>{{ site.description }}</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>{{ site.address.street }}<br>{{ site.address.city }}</p>
+                    <p>E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                    <p>Telefon: {{ site.phone }}</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Geschäftszeiten</h4>
+                    <p>{{ site.opening_hours }}</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Eine Initiative der Stadt Bielefeld.</p>
+                <div class="footer-links">
+                    <a href="{{ site.baseurl }}/impressum">Impressum</a>
+                    <a href="{{ site.baseurl }}/datenschutz">Datenschutz</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+</body>
+</html>
