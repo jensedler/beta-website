@@ -1,6 +1,7 @@
 media:
   input: assets/images
   output: assets/images
+  template: "{{ '/{path}' | relative_url }}"
   extensions:
     - jpg
     - jpeg
