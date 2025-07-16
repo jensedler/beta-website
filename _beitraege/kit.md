@@ -26,7 +26,7 @@ Das KI-System nutzt **Natural Language Processing** (NLP), um Texte aus verschie
 
 Seit der Einführung des Tools vor drei Monaten konnten wir bereits **85% mehr Bürgerfeedback** effizient verarbeiten. Die automatische Kategorisierung hilft unseren Teams dabei, schneller auf wichtige Anliegen zu reagieren.
 
-![Beispiel-Screenshot des KI-Tools{{ '/assets/images/ki.png' | relative_url }})
+![Beispiel-Screenshot des KI-Tools]({{ '/assets/images/ki.png' | relative_url }})
 
 > "Das Tool hat unsere Arbeitsweise komplett verändert. Wir können jetzt viel gezielter auf die Bedürfnisse unserer Bürger eingehen." - Maria Gonçalves, Projektmanagerin
 
