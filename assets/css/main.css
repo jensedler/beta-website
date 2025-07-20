@@ -102,10 +102,36 @@ h1, h2, h3, h4, h5, h6 {
 h1 { 
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 900;
+}
+
+/* Gradient text only for hero section */
+.hero h1 {
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* Regular text color for other h1 elements */
+h1 {
+  color: var(--text-dark);
+}
+
+/* Override for hero specifically */
+.hero h1 {
+  color: transparent; /* This allows the background-clip to work */
+}
+
+/* Ensure blog/article headings are always readable */
+article h1,
+.post h1,
+.content h1,
+main h1:not(.hero h1) {
+  color: var(--text-dark) !important;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+  background-clip: unset !important;
 }
 
 h2 { 
