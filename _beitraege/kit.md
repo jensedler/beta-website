@@ -9,7 +9,7 @@ header_image: "/assets/images/ki.png"
 
 ## Revolutionäre Technologie für mehr Bürgernähe
 
-Die Stadt Bielefeld setzt auf innovative Technologien, um die Bürgerbeteiligung zu verbessern. Unser neuestes KI-Tool analysiert Feedback aus verschiedenen Kanälen und identifiziert automatisch die wichtigsten Themen und Anliegen der Bürgerinnen und Bürger.
+Die Stadt Bielefeld setzt auf innovative Technologien, um die Bürgerbeteiligung zu verbessern. Unser neuestes KI-Tool analysiert Feedback aus verschiedenen Kanälen und identifiziert automatisch die wichtigsten Themen und Anliegen der Bürgerinnen und Bürger. 
 
 ### Wie funktioniert das Tool?
 

@@ -26,13 +26,13 @@ Das KI-System nutzt **Natural Language Processing** (NLP), um Texte aus verschie
 Seit der Einführung des Tools vor drei Monaten konnten wir bereits **85% mehr Bürgerfeedback** effizient verarbeiten. Die automatische Kategorisierung hilft unseren Teams dabei, schneller auf wichtige Anliegen zu reagieren.
 
 ![Beispiel-Screenshot des KI-Tools](/beta-website/assets/images/ki.png)
-![1](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_1.png)
-![2](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_2.png)
-![3](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_3.png)
-![4](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_4.png)
-![5](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_5.png)
-![6](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_6.png)
-![7](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_7.png)
+![1](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_1.jpeg)
+![2](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_2.jpeg)
+![3](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_3.jpeg)
+![4](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_4.jpeg)
+![5](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_5.jpeg)
+![6](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_6.jpeg)
+![7](/beta-website/assets/images/sommerfest_2025/sommerfest_2025_7.jpeg)
 
 > "Das Tool hat unsere Arbeitsweise komplett verändert. Wir können jetzt viel gezielter auf die Bedürfnisse unserer Bürger eingehen." - Maria Gonçalves, Projektmanagerin
 
